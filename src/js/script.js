@@ -1,4 +1,5 @@
 import { quotes } from './quotes.js';
+const button = document.getElementById('button');
 
 function getRandomQuote(quotes) {
   const randIndex = Math.floor(Math.random() * quotes.length);
@@ -15,10 +16,9 @@ function renderQuote(quotes) {
 };
 
 function start() {
-  window.addEventListener('load', () => {
+  button.addEventListener('click', () => {
     renderQuote(quotes);
   })
-
 }
 
-start()
+start();

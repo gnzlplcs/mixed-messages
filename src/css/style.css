@@ -23,6 +23,10 @@ main {
   margin: 5rem 0;
 }
 
+div#app {
+  min-height: 40vh;
+}
+
 button {
   width: 150px;
   height: 50px;
@@ -40,14 +44,13 @@ button:hover {
 
 .quote-paragraph {
   color: #fffd80;
-  font-size: 2.5rem;
-  line-height: 1.65;
+  font-size: 2rem;
 }
 
 .author-paragraph {
   color: #a3a3a3;
   text-align: right;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 footer {
