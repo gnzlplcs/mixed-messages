@@ -19,12 +19,24 @@ a:hover {
   border-bottom: 1px solid pink;
 }
 
+header {
+  padding: 2rem 0.5rem .75rem;
+}
+
+h1 {
+  margin-bottom: .5rem;
+}
+
+h2 {
+  margin-top: 0;
+}
+
 main {
-  margin: 5rem 0;
+  margin: 1rem 0;
 }
 
 div#app {
-  min-height: 40vh;
+  min-height: 35vh;
 }
 
 button {
@@ -45,12 +57,15 @@ button:hover {
 .quote-paragraph {
   color: #fffd80;
   font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: .5rem;
 }
 
 .author-paragraph {
   color: #a3a3a3;
   text-align: right;
   font-size: 1.25rem;
+  margin-top: .5rem;
 }
 
 footer {
@@ -72,7 +87,7 @@ footer {
   }
 
   main {
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
 
   .quote-paragraph {
